@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=PT+Sans&family=PT+Sans+Narrow&family=Rajdhani:wght@600&family=Space+Grotesk:wght@600&family=Tinos:wght@700&display=swap');
+:root{
+    --red:#EF233C;
+
+}
+body{
+
+    background-color: black; 
+     margin:0 ;
+    height:100vh ;
+    color:white;
+    
+
+    font-family: 'Crimson Text', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Tinos', serif;
+
+}
+.btn-cstm
+{
+    background-color: red;
+   
+
+}
+.text-danger
+{
+    color: rgba(249, 7, 7, 0.849);
+}
+.nav-item a
+{
+    color: white;
+}
+.text-white
+{
+    color: white;
+}
+.nav-item a:hover{
+
+    color:red;
+}
+.h-5
+{
+min-height: 450px;
+}
+.profile
+{
+    
+    
+    background-color: black;
+    width: 50%;
+    margin: 20px;
+    filter:drop-shadow(10px 10px 70px white);
+}
+.borderr
+{
+    border: none;
+}
+.img-fluid
+{
+    width: 300px;
+    height:150px;
+    /* filter:drop-shadow(10px 10px 70px white); */
+}
+.aboutcard{
+    width: 80%;
+}
+.card{
+
+background-color: black;
+color: white;
+}
+
+.card img
+{
+    height:280px ;
+    
+}
+.title
+{
+    text-align:center ;
+    color:red ;
+}
+.icons i{
+
+    margin-left: 10px;
+    color:var(--red);
+}
+html
+{
+    scroll-behavior: smooth;
+}
